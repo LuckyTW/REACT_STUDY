@@ -8,7 +8,6 @@ const ExpenseForm = (props) => {
 
   const titleChangeHandler = (e) => {
     setEnteredTitle(e.target.value);
-    // console.log(e.target.value);
   };
 
   const amountChangeHandler = (e) => {
